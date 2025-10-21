@@ -1,0 +1,17 @@
+:root {
+  --main-background-color: #fff7f3;
+  --green: #d9ffb6;
+  --main-text-color: #332e2e;
+  --padding-content: 0 10%;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: var(--main-background-color);
+}
+
+h1, h2, p, ul {
+  margin: 0;
+}
