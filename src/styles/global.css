@@ -7,9 +7,14 @@
 
 html,
 body {
+  color: var(--main-text-color);
   margin: 0;
   font-family: Roboto, sans-serif;
   background-color: var(--main-background-color);
+}
+
+svg {
+  fill: var(--main-text-color);
 }
 
 h1, h2, p, ul {
