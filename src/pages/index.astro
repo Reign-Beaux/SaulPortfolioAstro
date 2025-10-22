@@ -6,6 +6,15 @@ import SmallPresentation from "./index/SmallPresentation.astro";
 ---
 
 <Layout title="Inicio">
-	<SmallPresentation />
-	<BestPractices />
+	<div class="home">
+		<SmallPresentation />
+		<BestPractices />
+	</div>
 </Layout>
+<style>
+	.home {
+		display: flex;
+		flex-direction: column;
+		gap: 64px;
+	}
+</style>
