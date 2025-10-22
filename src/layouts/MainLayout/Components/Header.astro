@@ -1,6 +1,5 @@
 ---
 import NavMenu from "../../../components/NavMenu.astro";
-import { Routes } from "../../../consts";
 ---
 
 <header class="header" role="banner">
@@ -44,3 +43,19 @@ import { Routes } from "../../../consts";
   </div>
   <NavMenu />
 </header>
+
+<style>
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+    padding: var(--padding-content);
+
+    & .social-networks {
+      display: flex;
+      flex: 1;
+      gap: 16px;
+    }
+  }
+</style>
