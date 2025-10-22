@@ -1,0 +1,20 @@
+.link-button {
+  display: inline-block;
+  width: fit-content;
+  min-width: 140px;
+  height: 48px;
+  padding: 0 32px;
+  border: 1px solid var(--main-text-color);
+  border-radius: 50px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-background-color);
+  background-color: var(--main-text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+  }
+}
