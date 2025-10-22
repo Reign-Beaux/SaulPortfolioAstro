@@ -10,7 +10,6 @@
     "start": "node ./dist/server/entry.mjs"
   },
   "dependencies": {
-    "@astrojs/node": "^9.5.0",
     "astro": "^5.14.7"
   }
 }
